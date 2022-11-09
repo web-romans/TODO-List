@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.header__title {
+    font-size: 22px;
+    font-weight: 400;
+}
+.header__title-count {
+    font-weight: 700;
+}

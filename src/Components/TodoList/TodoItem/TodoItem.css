@@ -1,0 +1,34 @@
+.todo-item {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px #ccc;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.todo-item--checked {
+    opacity: 0.5;
+}
+
+.todo-item--checked .todo-item__name {
+    text-decoration: line-through;
+}
+
+.todo-item__name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.todo-item__description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.todo-item__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.todo-item__btns * {
+    margin-left: 10px;
+}

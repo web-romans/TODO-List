@@ -1,0 +1,28 @@
+.button {
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color, color,  0.2s linear;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid currentColor;
+    transition: opacity 0.2s linear;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.button--red {
+    color: rgb(165, 3, 3);
+}
+
+.button--orange {
+    color: rgb(204, 93, 3);
+}
+
+.button--blue {
+    color: rgb(26, 115, 231);
+}
